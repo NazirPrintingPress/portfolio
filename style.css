@@ -157,6 +157,6 @@ body {
     background-color: #1a252f;
   }
   .cv-download {
-    text-align: center;
+    text-align:justify;
     margin: 2rem 0;
   }
