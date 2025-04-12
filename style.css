@@ -160,10 +160,22 @@ body {
     text-align:justify;
     margin: 2rem 0;
   }
+  .project-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem;
+  }
+  
+  .project-column {
+    flex: 1 1 45%;
+    min-width: 300px;
+  }
+  
   .project {
     background: #fff;
     padding: 1.5rem;
-    margin: 1.5rem 0;
+    margin-top: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   }
